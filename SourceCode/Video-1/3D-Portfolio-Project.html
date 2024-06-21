@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and Javascript | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Hj9/J/mH0G/5ag3pHKFDBDz+9SPr9NeP9AK0lSxHXHnoSe06Y8tK4so5eeE3I/R7f8KRiJ5/bGGOh7URnHsZIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- profile page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="photo.jpg" alt="">
+                    <h1>Ahmet Aksoy</h1>
+                    <h3>DevOps Engineer</h3>
+
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/aksoy-ahmet" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.xing.com/profile/Ahmet_Aksoy68/web_profiles?expandNeffi=true" target="_blank"><i class='bx bxl-xing'></i></a>
+                        <a href="https://github.com/Herr-Aksoy" target="_blank"><i class='bx bxl-github' ></i></a>
+                        <a href="https://www.instagram.com/updated_devops/?igsh=N3kxOWMwdDhsaTZl"target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+
+                    <p>Hi, I'm Ahmet Aksoy, a DevOps Engineer. With approximately 2 years of experience in the DevOps field, 
+                    I am open-minded and passionate about automating IT processes. I have a particular interest in developing 
+                    and implementing effective Continuous Integration and Delivery (CI/CD) pipelines. In this process,I utilize 
+                    proven practices such as containerization, orchestration, monitoring, infrastructure automation tools, 
+                    and cloud solutions. Additionally, I am eager to learn new technologies.</p>
+
+                    <div class="btn-box">
+                        <a href="Lebenslauf-Project.pdf" class="btn" download>Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+             </div>
+
+             <!-- page 1 & 2 -->
+             <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience) -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2024 - Heute</span>
+                            <h3>DevOps Engineer - EMM-IT GmbH</h3>
+                            <p>I have hands-on experience with Kubernetes, Argo CD, MSSQL, PostgreSQL, 
+                            and Angular on the Azure Cloud platform. I've implemented CI/CD automation 
+                            by creating Docker files and establishing Azure ACR integration using GitHub 
+                            Actions for Docker image builds.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2015 - 2018 </span>
+                            <h3>Teacher's Manager</h3>
+                            <p>I improved my teamwork and organisation skills by working as an institution 
+                                and teacher manager. I deepened my sense of responsibility.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2010 - 2015 </span>
+                            <h3>Mathematik Lehrer</h3>
+                            <p>I kept in constant contact with the students and their parents, thus 
+                                improving my communication skills. I gained different perspectives in 
+                                solving the problems that arose.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+                
+                <!-- page 2 (education) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2023 - 2014 </span>
+                            <h3>THIntegriert Digitalisierung</h3>
+                            <p>In the THI university programme I took courses in Python, Agile 
+                                Method, ERP system, IT workshop, Digital Business, Internettetechnologien 
+                                und internet of Things. I did an internship training for six months.</p>
+                        </div>
+                    
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2009 - 2010 </span>
+                            <h3>Master Degree - Erciyes University</h3>
+                            <p>In my master programme, I took courses in psychology, methods of 
+                                approaching problems, crisis management, human development, 
+                                and stages of awareness. </p>
+                        </div>
+                    
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2005 - 2009 </span>
+                            <h3>Bachelor degree - Erciyes University</h3>
+                            <p>In my undergraduate programme, I took courses in analysis, synthesis, 
+                                analytical geometry, topology, computer programming. I learnt problem 
+                                solving with deductive and inductive methods.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+                    
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+             </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services) -->
+                <div class="page-front">
+                    <h1 class="title">My Services</h1>
+
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bxs-paint'></i>
+                            <h3>Containerization</h3>
+                            <p>Docker, Kubernetes, Argocd</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                        
+                        <div class="services-content">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>CI/CD Development</h3>
+                            <p>Jenkins, GitHub, AzureDevOps</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-bar-chart-alt'></i>
+                            <h3>Cloud Solutions</h3>
+                            <p>Amazon Web Services, Azure</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-search'></i>
+                            <h3>Configuration</h3>
+                            <p>Terraform, Crossplane, Ansible</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+                    
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+
+                <!-- page 4 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>DevOps</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-kubernetes' ></i></i>K8s</span>
+                                <span><i class='bx bxl-docker' ></i></i>Docker</span>
+                                <span><i class='bx bxl-github' ></i></i>Github</span>
+                                <span><i class="fa fa-brands fa-jenkins"></i> Jenkins</span>
+                                <span><i class="fa-brands fa-linux"></i></i> Linux</span>
+                                <span><i class="fa-brands fa-python"></i></i>Python</span>
+                                <span><i class=''></i>Ansible</span>
+                                <span><i class=""></i></i>Argocd</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Cloud Providers</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-aws'></i></i>AWS</span>
+                                <span><i class="fa-solid fa-cloud"></i></i>Azure</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Database</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-postgresql' ></i></i>Postgresql</span>
+                                <span><i class='bx bxs-data'></i></i>Mssql</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="number-page">4</span>
+                    
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (Latest prohect or my portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="project-photo.png" alt="">      <!--Proje fotorafi ekle-->
+                        </div>
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>3D-Portfolio-Project</h3>     <!--Proje linkini ekle-->      
+                                <a href="https://example.com" target="_blank">Live Preview<i class='bx bx-link-external'></i></a>
+                            </div>
+                            <p><strong>Tech Used:</strong></p>
+                            <p><strong>Infrastructure:</strong> AWS, Terraform </p>
+                            <p><strong>Containerization:</strong> Docker</p>
+                            <p><strong>CI/CD Tools:</strong> GitHub Actions</p>
+                            <p><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+                            <p><strong>Backend:</strong> Python, Flask</p>
+                        </div>
+                        
+                        <div class="btn-box">
+                            <a href="https://github.com/Herr-Aksoy/3D-Portfolio-Project/tree/main/Src-Image" class="btn" target="_blank">Source Code</a>
+                            <a href="https://github.com/Herr-Aksoy/3D-Portfolio-Project?tab=readme-ov-file#3d-portfolio-project:~:text=README-,3D%2DPortfolio%2DProject,-Creating%20.github%5Cworkflows" class="btn" target="_blank">More Projects</a>
+                        </div>
+                    </div>
+                    
+                    <span class="number-page">5</span>
+                    
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- page 6 (contact me) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+                    
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user'></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
